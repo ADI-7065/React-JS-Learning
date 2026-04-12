@@ -1,0 +1,24 @@
+User & Data Generation
+  1. ReqRes: https://reqres.in
+  2. JSONPlaceholder: https://typicode.com
+  3. DummyJSON: https://dummyjson.com
+  4. FakerAPI: https://fakerapi.it
+  5. Mockaroo: https://mockaroo.com
+
+Avatars & Placeholders
+  1. Robohash: https://robohash.org
+  2. DiceBear: https://dicebear.com
+  3. PlaceKitten: https://placekitten.com
+  4. PlaceDog: https://placedog.net
+  5. This Person Does Not Exist: https://thispersondoesnotexist.com
+
+Specific Interest & Fun
+  1. PokeAPI: https://pokeapi.co
+  2. The Cat API: https://thecatapi.com
+  3. The Dog API: https://thedogapi.com
+  4. JokeAPI: https://sv443.net
+  5. OpenWeatherMap: https://openweathermap.org
+  6. REST Countries: https://restcountries.com
+
+Master List
+  1. Public APIs GitHub: https://github.com
