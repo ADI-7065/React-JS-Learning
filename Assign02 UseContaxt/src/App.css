@@ -1,0 +1,27 @@
+* {
+  transition: all 0.3s ease;
+}
+
+.dark {
+  background-color: #011d3f;
+  color: #ffffff;
+}
+.dark.nev,
+.dark.foot {
+  background-color: #41017e;
+}
+.light.nev,
+.light.foot {
+  background-color: #639edabe;
+}
+.light {
+  background-color: #9ecbf79a;
+  color: #000000;
+}
+.dark a {
+  color: #ffffff;
+}
+.light a {
+  color: #000000;
+}
+
