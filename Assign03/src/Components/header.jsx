@@ -1,9 +1,8 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ likeCount = 0 }) => {
   return (
     <>
       <nav className="container-fluid d-flex justify-content-between align-items-center py-3 px-4 sticky-top bg-white">
@@ -55,8 +54,8 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faGlobe} />
           </button>
 
-          <button className="btn btn-light rounded-circle border-0 d-flex align-items-center p-2 justify-content-center">
-            <FontAwesomeIcon icon={faBars} />
+          <button className="btn btn-light rounded-pill border-0 d-flex align-items-center p-2 justify-content-center">
+            <FontAwesomeIcon icon={faHeart} /> <span>{likeCount}</span>
           </button>
         </div>
       </nav>

@@ -1,6 +1,5 @@
-import React from "react";
+const Home = ({ onLike = () => {} }) => {
 
-const Home = () => {
   return (
     <div className="container my-5">
       <h1 className="text-center">Welcome to Airbnb</h1>
@@ -15,12 +14,20 @@ const Home = () => {
       <div className="row g-4">
         <div className="col-md-3 ">
           <div className="card border-0">
-            <img
-              src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
-              alt="home"
-              className="card-img-top rounded-4"
-              style={{ height: "200px", objectFit: "cover" }}
-            />
+            <div className="position-relative">
+              <img
+                src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
+                alt="home"
+                className="card-img-top rounded-4"
+                style={{ height: "200px", objectFit: "cover" }}
+              />
+              <button
+                className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle"
+                onClick={onLike}
+              >
+                ❤️
+              </button>
+            </div>
             <div className="mt-2">
               <div className="fw-semibold">Flat in Gurugram</div>
               <div className="text-muted small">₹30,000 for 2 nights</div>
@@ -31,12 +38,44 @@ const Home = () => {
 
         <div className="col-md-3 ">
           <div className="card border-0">
-            <img
-              src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
-              alt="home"
-              className="card-img-top rounded-4"
-              style={{ height: "200px", objectFit: "cover" }}
-            />
+            <div className="position-relative">
+              <img
+                src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
+                alt="home"
+                className="card-img-top rounded-4"
+                style={{ height: "200px", objectFit: "cover" }}
+              />
+              <button
+                className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle"
+                onClick={onLike}
+              >
+                ❤️
+              </button>
+            </div>
+            <div className="mt-2">
+              <div className="fw-semibold">Flat in Gurugram</div>
+              <div className="text-muted small">₹30,000 for 2 nights</div>
+              <div className="small">⭐ 5.0</div>
+            </div>
+          </div>
+        </div>
+
+          <div className="col-md-3">
+            <div className="card border-0">
+              <div className="position-relative">
+                <img
+                  src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
+                  alt="home"
+                  className="card-img-top rounded-4"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <button
+                  className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle"
+                  onClick={onLike}
+                >
+                  ❤️
+                </button>
+              </div>
             <div className="mt-2">
               <div className="fw-semibold">Flat in Gurugram</div>
               <div className="text-muted small">₹30,000 for 2 nights</div>
@@ -47,28 +86,20 @@ const Home = () => {
 
         <div className="col-md-3">
           <div className="card border-0">
-            <img
-              src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
-              alt="home"
-              className="card-img-top rounded-4"
-              style={{ height: "200px", objectFit: "cover" }}
-            />
-            <div className="mt-2">
-              <div className="fw-semibold">Flat in Gurugram</div>
-              <div className="text-muted small">₹30,000 for 2 nights</div>
-              <div className="small">⭐ 5.0</div>
+            <div className="position-relative">
+              <img
+                src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
+                alt="home"
+                className="card-img-top rounded-4"
+                style={{ height: "200px", objectFit: "cover" }}
+              />
+              <button
+                className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle"
+                onClick={onLike}
+              >
+                ❤️
+              </button>
             </div>
-          </div>
-        </div>
-
-        <div className="col-md-3">
-          <div className="card border-0">
-            <img
-              src="https://images.unsplash.com/photo-1596436889106-be35e843f974"
-              alt="home"
-              className="card-img-top rounded-4"
-              style={{ height: "200px", objectFit: "cover" }}
-            />
             <div className="mt-2">
               <div className="fw-semibold">Flat in Gurugram</div>
               <div className="text-muted small">₹30,000 for 2 nights</div>

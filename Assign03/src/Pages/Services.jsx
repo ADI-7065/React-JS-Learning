@@ -16,12 +16,17 @@ const Services = () => {
         <div className="row g-4">
           <div className="col-md-3 ">
             <div className="card border-0">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
-                alt="home"
-                className="card-img-top rounded-4"
-                style={{ height: "200px", objectFit: "cover" }}
-              />
+              <div className="position-relative">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
+                  alt="home"
+                  className="card-img-top rounded-4"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <button className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle">
+                  ❤️
+                </button>
+              </div>
               <div className="mt-2">
                 <div className="fw-semibold">Flat in Gurugram</div>
                 <div className="text-muted small">₹30,000 for 2 nights</div>
@@ -32,12 +37,17 @@ const Services = () => {
 
           <div className="col-md-3 ">
             <div className="card border-0">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
-                alt="home"
-                className="card-img-top rounded-4"
-                style={{ height: "200px", objectFit: "cover" }}
-              />
+              <div className="position-relative">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
+                  alt="home"
+                  className="card-img-top rounded-4"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <button className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle">
+                  ❤️
+                </button>
+              </div>
               <div className="mt-2">
                 <div className="fw-semibold">Flat in Gurugram</div>
                 <div className="text-muted small">₹30,000 for 2 nights</div>
@@ -48,12 +58,17 @@ const Services = () => {
 
           <div className="col-md-3">
             <div className="card border-0">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
-                alt="home"
-                className="card-img-top rounded-4"
-                style={{ height: "200px", objectFit: "cover" }}
-              />
+              <div className="position-relative">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
+                  alt="home"
+                  className="card-img-top rounded-4"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <button className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle">
+                  ❤️
+                </button>
+              </div>
               <div className="mt-2">
                 <div className="fw-semibold">Flat in Gurugram</div>
                 <div className="text-muted small">₹30,000 for 2 nights</div>
@@ -64,12 +79,17 @@ const Services = () => {
 
           <div className="col-md-3">
             <div className="card border-0">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
-                alt="home"
-                className="card-img-top rounded-4"
-                style={{ height: "200px", objectFit: "cover" }}
-              />
+              <div className="position-relative">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1661575458815-e25d152f918f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
+                  alt="home"
+                  className="card-img-top rounded-4"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <button className="position-absolute top-0 end-0 m-2 fs-5 border-0 bg-transparent rounded-circle">
+                  ❤️
+                </button>
+              </div>
               <div className="mt-2">
                 <div className="fw-semibold">Flat in Gurugram</div>
                 <div className="text-muted small">₹30,000 for 2 nights</div>
