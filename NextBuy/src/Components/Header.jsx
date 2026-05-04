@@ -6,15 +6,22 @@ const Header = () => {
   const [theme, setTheme] = useContext(ThemeContext);
 
   return (
-    <header className=" w-full " style={theme ? dark.header : light.header}>
+    <header className="w-full sticky top-0 z-50" style={theme ? dark.header : light.header}>
       <div className="mx-auto px-9 py-3 flex items-center justify-between gap-4">
         <div className="flex items-center gap-2 cursor-pointer">
           <img
             src="https://cdn-icons-png.flaticon.com/128/3081/3081648.png"
             alt="logo"
-            className="h-15"
+            className="h-10" // ✅ FIXED
           />
-          <h1 className="text-xl font-bold tracking-wide text-gray-800 dark:text-white">
+
+          {/* ✅ LOGO COLOR FIX */}
+          <h1
+            className="logo text-xl font-bold tracking-wide dark:text-white"
+            style={{
+              color: theme ? dark.header.color : light.header.logo.color, // ✅ NOW USED
+            }}
+          >
             Next<span className="text-blue-600">BUY</span>
           </h1>
         </div>
@@ -26,18 +33,17 @@ const Header = () => {
             className="
               w-full pl-10 pr-4 py-2
               rounded-full border border-gray-300
-              text-sm text-gray-400
+              text-sm text-gray-700
               focus:outline-none focus:ring-2 focus:ring-blue-500
               placeholder-gray-400
-              
             "
           />
+
           <button className="cursor-pointer px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
-            <i className="fa-solid fa-magnifying-glass text-gray-400"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
 
-        
         <div>
           <button
             onClick={() => setTheme(!theme)}

@@ -1,42 +1,57 @@
 import { createContext } from "react";
 
+// 🌙 DARK THEME
 export const dark = {
   header: {
-    backgroundColor: "#010638",
-    color: "#ffffff",
+    backgroundColor: "#0f172a", // slate-900
+    color: "#f1f5f9",
   },
-  //   nav: {
-  //     backgroundColor: "#4886ac",
-  //     color: "#ffffff",
-  //   },
-  // hero:{
-  //     backgroundColor: '#ffffff',
-  //     color: '#222222'
-  // },
-  //   footer: {
-  //     backgroundColor: "#242424",
-  //     color: "#ffffff",
-  //   },
-};
-export const light = {
-  header: {
-    backgroundColor: "#051b7d",
-    color: "#191919",
+  nav: {
+    backgroundColor: "#1e293b", // slate-800
+    color: "#e2e8f0",
   },
-  //   nav: {
-  //     backgroundColor: "#07344f",
-  //     color: "#d9d9d9",
-  //   },
-  // hero:{
-  //     backgroundColor: '#067d35',
-  //     color: '#d1d1d1'
-  // },
-  //   footer: {
-  //     backgroundColor: "#6a6a6a",
-  //     color: "#ffffff",
-  //   },
+  home: {
+    backgroundColor: "#020617", // dark bg
+    color: "#f8fafc",
+  },
+  card: {
+    backgroundColor: "#1e293b",
+    color: "#f1f5f9",
+  },
+  footer: {
+    backgroundColor: "#020617",
+    color: "#cbd5f5",
+  },
 };
 
+// ☀️ LIGHT THEME
+export const light = {
+  header: {
+    backgroundColor: "#ffffff",
+    color: "#1e293b",
+    logo: {
+      color: "red",
+    },
+  },
+  nav: {
+    backgroundColor: "#f1f5f9",
+    color: "#334155",
+  },
+  home: {
+    backgroundColor: "#f8fafc",
+    color: "#0f172a",
+  },
+  card: {
+    backgroundColor: "#ffffff",
+    color: "#1e293b",
+  },
+  footer: {
+    backgroundColor: "#e2e8f0",
+    color: "#1e293b",
+  },
+};
+
+// 🧠 CONTEXT
 const ThemeContext = createContext([false, () => {}]);
 
 export default ThemeContext;
