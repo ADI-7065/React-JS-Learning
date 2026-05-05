@@ -20,13 +20,6 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/orders"
-            className="relative light:text-gray-700 hover:text-blue-600"
-          >
-            <i className="fa-solid fa-cart-shopping text-lg"></i>
-          </Link>
-
-          <Link
             to="/login"
             className="light:text-gray-700 hover:text-blue-600 "
           >

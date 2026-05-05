@@ -6,16 +6,20 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { useState } from "react";
 import ThemeContext from "./Hooks/ThemeContext";
+import { Provider } from "react-redux";
+import store from "./Stores/Store";
 
 const Root = () => {
   const themeState = useState(false);
 
   return (
-    <BrowserRouter>
-      <ThemeContext.Provider value={themeState}>
-        <App />
-      </ThemeContext.Provider>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <ThemeContext.Provider value={themeState}>
+          <App />
+        </ThemeContext.Provider>
+      </BrowserRouter>
+    </Provider>
   );
 };
 
